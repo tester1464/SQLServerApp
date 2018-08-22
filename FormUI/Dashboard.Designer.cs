@@ -42,7 +42,7 @@
             this.peopleFoundListBox.ItemHeight = 18;
             this.peopleFoundListBox.Location = new System.Drawing.Point(12, 75);
             this.peopleFoundListBox.Name = "peopleFoundListBox";
-            this.peopleFoundListBox.Size = new System.Drawing.Size(264, 184);
+            this.peopleFoundListBox.Size = new System.Drawing.Size(512, 184);
             this.peopleFoundListBox.TabIndex = 0;
             // 
             // lastNameTextBox
