@@ -31,5 +31,15 @@ namespace FormUI
             people = db.GetPeople(lastNameTextBox.Text);
             UpdateBinding();
         }
+
+        private void btnInsert_Click(object sender, EventArgs e)
+        {
+            DataAccess db = new DataAccess();
+            db.Insert(textBoxFirstName.Text, textBoxLastName.Text, textBoxEMail.Text, textBoxPhoneNumber.Text);
+            textBoxFirstName.Text = "";
+            textBoxLastName.Text = "";
+            textBoxEMail.Text = "";
+            textBoxPhoneNumber.Text = "";
+        }
     }
 }
